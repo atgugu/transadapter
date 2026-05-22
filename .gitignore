@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# data, weights, logs
+data/
+runs/
+checkpoints/
+saes/*.pt
+saes/*.safetensors
+wandb/
+*.log
+
+# editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# local agent state
+.claude/
